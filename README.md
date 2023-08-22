@@ -4,6 +4,7 @@
   <img src="images/hangman-game.png" alt="Logo" width="80" height="80">
 </div>
 
+
 Un jeu classique du Pendu, développé en HTML, CSS et JavaScript.
 
 # Fonctionnalités
