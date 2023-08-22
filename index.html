@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Game JavaScript | CodingNepal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/hangman-game.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/word-list.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="game-modal">
+      <div class="content">
+        <img src="#" alt="gif" />
+        <h4>Game Over!</h4>
+        <p>The correct word was: <b>rainbow</b></p>
+        <button class="play-again">Play Again</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="hangman-box">
+        <img src="#" draggable="false" alt="hangman-img" />
+        <h1 class="title">Hangman Game</h1>
+      </div>
+      <div class="game-box">
+        <ul class="word-display"></ul>
+        <h4 class="hint-text"><b>Hint :</b> <em></em></h4>
+        <h4 class="guesses-text">Incorrect guesses : <b></b></h4>
+        <div class="keyboard"></div>
+      </div>
+    </div>
+  </body>
+</html>
