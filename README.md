@@ -14,21 +14,18 @@ Un jeu classique du Pendu, développé en HTML, CSS et JavaScript.
 - Compteur de tentatives restantes.
 - Option de redémarrage pour jouer à nouveau.
 
-# Explications
-- Sélectionnez la longueur souhaitée pour le mot de passe.
-- Cochez les cases correspondant aux types de caractères que vous souhaitez inclure (chiffres, lettres majuscules, lettres minuscules, caractères spéciaux).
-- Cliquez sur "Générer" pour obtenir un mot de passe.
-- Utilisez le bouton "Copier" pour copier le mot de passe dans votre presse-papiers.
-
 # Comment démarrer ?
 - Cloner le répertoire
 - Ouvrez index.html dans votre navigateur préféré.
 - Amusez-vous !
 
 # Structure du projet
-- index.html : Fichier principal de l'application.
-- style.css : Style principal.
-- script.js : Script principal du de l'application.
+- index.html : Fichier principal du jeu.
+- css/ : Dossier contenant tous les styles CSS.
+  - style.css : Style principal.
+- js/ : Dossier contenant le JavaScript.
+  - script.js : Script principal du jeu.
+  - word-lits.js : données brutes d'exemple de mots
 
 <!-- Réalisé -->
 # Réalisé avec :
