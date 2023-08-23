@@ -15,7 +15,7 @@ Un jeu classique du Pendu, développé en HTML, CSS et JavaScript.
 - Option de redémarrage pour jouer à nouveau.
 
 # Comment démarrer ?
-- Cloner le répertoire : `git clone lien-vers-votre-repo.git`
+- Cloner le répertoire
 - Ouvrez index.html dans votre navigateur préféré.
 - Amusez-vous !
 
